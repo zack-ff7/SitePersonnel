@@ -107,8 +107,8 @@
                   <h2>Contact Details</h2>
                   <p class="address">
 						   <span>TOQUET Armand</span><br>
-						   <span>32 rue Michel Dupeuble<br>
-						         69100 Villeurbanne France
+						   <span>2B avenue de la libération<br>
+						         69330 Meyzieu France
                      </span><br>
 						   <span>+33/0786182802</span><br>
                      <span>armand.toquet1995@gmail.com</span>
@@ -719,37 +719,13 @@
 					   <h4>Address and Phone</h4>
 					   <p class="address">
 						   TOQUET Armand<br>
-						   32 rue Michel Dupeuble <br>
-						   69100Villeurbanne France<br>
+						   2B avenue de la libération <br>
+						   69330 Meyzieu France<br>
 						   <span>_-_-_-_-</span>
 					   </p>
 
 				   </div>
 
-               <div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Latest Tweets</h4>
-
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-
-		         </div>
 
             </aside>
 

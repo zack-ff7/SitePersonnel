@@ -18,7 +18,12 @@ class PresentationController extends Controller
     
     public function sendContact(Request $request)
     {
-    	$name=$request->name;
+    	$name=$request->contactName;
+    	$subject=$request->contactSubject;
+    	$message=$request->contactMessage;
+    	$email=$request->contactEmail;
+    	
+    	mail($email,$subject ,$name.' vous a envoyé le message : '. $message);
     }
     
     public function getDownload(){
