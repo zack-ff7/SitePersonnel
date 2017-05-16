@@ -23,7 +23,7 @@ class PresentationController extends Controller
     	$message=$request->contactMessage;
     	$email=$request->contactEmail;
     	
-    	mail($email,$subject ,$name.' vous a envoyé le message : '. $message);
+    	mail('armand.toquet1995@gmail.com',$subject ,$name.' vous a envoyé le message : '. $message.'; Il peut être joignable au mail :'.$email);
     }
     
     public function getDownload(){

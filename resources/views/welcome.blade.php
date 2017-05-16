@@ -8,8 +8,8 @@
    ================================================== -->
    <meta charset="utf-8">
 	<title>Armand TOQUET</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="CV Website">
+	<meta name="author" content="TOQUET Armand">
 
    <!-- Mobile Specific Metas
    ================================================== -->
@@ -57,16 +57,11 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Armand TOQUET,General developper.</h1>
-            <h3> I'm a general french developper. Ready to code all types of project. The quality of your application? My motivation. </h3>
+            <h3> I'm a general developper. Ready to code all types of project. The quality of your application? My motivation. </h3>
             <hr />
             <ul class="social">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/armand-toquet-a8633510b/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="skype:toquet.armand?userinfo"><i class="fa fa-skype"></i></a></li>
             </ul>
          </div>
       </div>
@@ -97,6 +92,7 @@
             <p>
             I'm an IT programmer since i get graduated in 2016 at the Institute of Technoloical University of Computing, in Lyon France.
             IT is my passion, I am coding many types of application, from the web app to the mobile app, going on software and networking.
+                I'm attached to the fact to work individually at my way that's why i'm working in free-lance.
            
             </p>
 
@@ -107,8 +103,8 @@
                   <h2>Contact Details</h2>
                   <p class="address">
 						   <span>TOQUET Armand</span><br>
-						   <span>2B avenue de la libération<br>
-						         69330 Meyzieu France
+						   <span>7 rue du père Aubry<br>
+						         71000 Mâcon France
                      </span><br>
 						   <span>+33/0786182802</span><br>
                      <span>armand.toquet1995@gmail.com</span>
@@ -163,6 +159,7 @@
 
 @endforeach
 
+  </div>
 
       </div> <!-- End Education -->
 
@@ -220,12 +217,17 @@
 				<div class="bars">
 
 				   <ul class="skills">
-					   <li><span class="bar-expand php"></span><em>Php</em></li>
-                  <li><span class="bar-expand laravel"></span><em>Laravel</em></li>
-						<li><span class="bar-expand ruby on rails"></span><em>Ruby on Rails</em></li>
+					    <li><span class="bar-expand php"></span><em>Php</em></li>
+                        <li><span class="bar-expand laravel"></span><em>Laravel</em></li>
+						<li><span class="bar-expand rubyonrails"></span><em>Ruby on Rails</em></li>
 						<li><span class="bar-expand css"></span><em>CSS</em></li>
 						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+                        <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+                         <li><span class="bar-expand cakephp"></span><em>CakePhp</em></li>
+                          <li><span class="bar-expand bootstrap"></span><em>Bootstrap</em></li>
+                           <li><span class="bar-expand java"></span><em>Java</em></li>
+                           <li><span class="bar-expand wordpress"></span><em>WordPress</em></li>
+          </ul>
 					</ul>
 
 				</div><!-- end skill-bars -->
@@ -254,11 +256,11 @@
                   <div class="item-wrap">
 
                      <a href="#modal-01" title="">
-                        <img alt="" src="{{asset('images/portfolio/coffee.jpg')}}">
+                        <img alt="" src="{{asset('images/front.png')}}">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h5>Coffee</h5>
-                              <p>Illustrration</p>
+          					      <h5>This WebSite ! </h5>
+                              <p>Entirely done under Laravel ! </p>
           					   </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -267,124 +269,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="{{asset('images/portfolio/console.jpg')}}">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Console</h5>
-                              <p>Web Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-03" title="">
-                        <img alt="" src="{{asset('images/portfolio/judah.jpg')}}">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Judah</h5>
-                              <p>Webdesign</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/into-the-light.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Into The Light</h5>
-                              <p>Photography</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-05" title="">
-                        <img alt="" src="images/portfolio/farmerboy.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Farmer Boy</h5>
-                              <p>Branding</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-06" title="">
-                        <img alt="" src="images/portfolio/girl.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Girl</h5>
-                              <p>Photography</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-07" title="">
-                        <img alt="" src="images/portfolio/origami.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Origami</h5>
-                              <p>Illustrration</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-08" title="">
-                        <img alt="" src="images/portfolio/retrocam.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Retrocam</h5>
-                              <p>Web Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div>  <!-- item end -->
+             <!-- item end -->
 
             </div> <!-- portfolio-wrapper end -->
 
@@ -396,139 +281,22 @@
 
          <div id="modal-01" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+		      <img class="scale-with-grid" src="images/front.png" alt="" />
 
 		      <div class="description-box">
-			      <h4>Coffee Cup</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+			      <h4>My own CV website</h4>
+			      <p>This Website is entirely done under Laravel 5, it's got a custom CMS to admin the database.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign and dev</span>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
+               <a href="http://armandtoquet.com" target="_blank">Details</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
 	      </div><!-- modal-01 End -->
 
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Console</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Judah</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
+        
 
 
       </div> <!-- row End -->
@@ -591,7 +359,7 @@
                         <blockquote>
                            <p>Website
                            </p>
-                           <img alt="" src="{{asset('images/9588.png')}}">
+                           <img alt="" src="{{asset('images/implement.png')}}">
      	<cite>Conception,implementation and maintenance</cite>
                         </blockquote>
                      </li>
@@ -603,7 +371,7 @@
                         <blockquote>
                            <p>Security
                            </p>
-                    <img alt="" src="{{asset('images/9588.png')}}">
+                    <img alt="" src="{{asset('images/websec.png')}}">
           	<cite>Secure applications and website</cite>
      
                         </blockquote>
@@ -614,7 +382,7 @@
                         <blockquote>
                            <p>Applications
                            </p>
-                                               <img alt="" src="{{asset('images/9588.png')}}">
+                                               <img alt="" src="{{asset('images/mobile.png')}}">
      	          	<cite>Development of web, software & mobile custom applications. </cite>
                         </blockquote>
                      </li>
@@ -625,7 +393,7 @@
                         <blockquote>
                            <p>E-commerce
                            </p>
-                                               <img alt="" src="{{asset('images/9588.png')}}">
+                                               <img alt="" src="{{asset('images/bd.png')}}">
                	<cite>Implement E-commerce solutions</cite>
                         </blockquote>
                      </li> <!-- slide ends -->
@@ -657,7 +425,7 @@
 
             <div class="ten columns">
 
-                  <p class="lead">Contact us to find the best solution about your project ! You will be answered in the day.
+                  <p class="lead">Contact us to find the best solution about your project ! You will be answered quickly.
                   </p>
 
             </div>
@@ -669,7 +437,7 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form action="{{ action('PresentationController@sendContact')}}" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -695,7 +463,7 @@
                   <div>
                      <button class="submit">Submit</button>
                      <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
+                        <img alt="" src="{{asset('images/loader.gif')}}">
                      </span>
                   </div>
 
@@ -716,12 +484,12 @@
 
                <div class="widget widget_contact">
 
-					   <h4>Address and Phone</h4>
+					   <h4>Address</h4>
 					   <p class="address">
 						   TOQUET Armand<br>
-						   2B avenue de la libération <br>
-						   69330 Meyzieu France<br>
-						   <span>_-_-_-_-</span>
+						   7 rue du père Aubry <br>
+						   71000 Mâcon France<br>
+						   
 					   </p>
 
 				   </div>
@@ -752,10 +520,7 @@
                <li><a href="#"><i class="fa fa-skype"></i></a></li>
             </ul>
 
-            <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
-            </ul>
+
 
          </div>
 

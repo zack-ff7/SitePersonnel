@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -324,7 +324,16 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-
+.php {
+    width: 80%;
+    -moz-animation: php 2s ease;
+    -webkit-animation: php 2s ease;
+}
+.laravel {
+    width: 80%;
+    -moz-animation: laravel 2s ease;
+    -webkit-animation: laravel 2s ease;
+}
 .photoshop {
   	width: 60%;
   	-moz-animation: photoshop 2s ease;
@@ -336,24 +345,48 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: illustrator 2s ease;
 }
 .wordpress {
-  	width: 50%;
+  	width: 80%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
 .css {
-  	width: 90%;
+  	width:100%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width:100%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 80%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
+}
+
+.cakephp{
+    width: 50%;
+    -moz-animation: cakephp 2s ease;
+    -webkit-animation: cakephp 2s ease;
+}
+
+.bootstrap{
+    width: 100%;
+    -moz-animation: bootstrap 2s ease;
+    -webkit-animation: bootstrap 2s ease;
+}
+
+.java {
+    width:80%;
+    -moz-animation: java 2s ease;
+    -webkit-animation: java 2s ease;
+}
+
+.rubyonrails{
+    width:30%;
+    -moz-animation: rubyonrails 2s ease;
+    -webkit-animation: rubyonrails 2s ease;
 }
 
 @-moz-keyframes photoshop {

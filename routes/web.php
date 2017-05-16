@@ -13,3 +13,16 @@
 
 Route::get('/','PresentationController@index');
 Route::get('download','PresentationController@getDownload');
+Route::post('sendMessage','PresentationController@sendContact');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+
+Route::group(array('prefix' => 'admin', 'middleware' => ['auth', 'auth:web']), function () {
+   Route::get('panel','AdminController@index');
+   Route::get('experience','AdminController@experience');
+    });
