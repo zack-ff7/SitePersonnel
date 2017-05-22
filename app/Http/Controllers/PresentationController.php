@@ -23,7 +23,9 @@ class PresentationController extends Controller
     	$message=$request->contactMessage;
     	$email=$request->contactEmail;
     	
-    	mail('armand.toquet1995@gmail.com',$subject ,$name.' vous a envoyé le message : '. $message.'; Il peut être joignable au mail :'.$email);
+    	//mail('armand.toquet1995@gmail.com',$subject ,$name.' vous a envoyé le message : '. $message.'; Il peut être joignable au mail :'.$email);
+        DB::table('messages')->insert(['subject'=> $subject,'mail'=>$email,'message'=> $message]);
+        return redirect('/');
     }
     
     public function getDownload(){

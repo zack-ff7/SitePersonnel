@@ -57,7 +57,7 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Armand TOQUET,General developper.</h1>
-            <h3> I'm a general developper. Ready to code all types of project. The quality of your application? My motivation. </h3>
+            <h3> I'm a general developper. Ready to code all types of project. Your application's quality ? My motivation. </h3>
             <hr />
             <ul class="social">
                <li><a href="https://www.linkedin.com/in/armand-toquet-a8633510b/"><i class="fa fa-linkedin"></i></a></li>
@@ -90,7 +90,7 @@
             <h2>About Me</h2>
 
             <p>
-            I'm an IT programmer since i get graduated in 2016 at the Institute of Technoloical University of Computing, in Lyon France.
+            I'm an IT programmer since i get graduated in 2016 at HND specialized in IT, in Lyon France.
             IT is my passion, I am coding many types of application, from the web app to the mobile app, going on software and networking.
                 I'm attached to the fact to work individually at my way that's why i'm working in free-lance.
            
@@ -437,7 +437,9 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="{{ action('PresentationController@sendContact')}}" method="post" id="contactForm" name="contactForm">
+               <form action="{{ action('PresentationController@sendContact')}}" method="post" id="contact" name="contact">
+                  {{ csrf_field() }} 
+
 					<fieldset>
 
                   <div>
@@ -510,15 +512,7 @@
 
          <div class="twelve columns">
 
-            <ul class="social-links">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
-            </ul>
+         
 
 
 
