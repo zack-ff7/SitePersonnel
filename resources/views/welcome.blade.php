@@ -56,7 +56,7 @@
 
       <div class="row banner">
          <div class="banner-text">
-            <h1 class="responsive-headline">Armand TOQUET,General developper.</h1>
+            <h1 class="responsive-headline">Armand TOQUET,General developer.</h1>
             <h3> I'm a general developper. Ready to code all types of project. Your application's quality ? My motivation. </h3>
             <hr />
             <ul class="social">
