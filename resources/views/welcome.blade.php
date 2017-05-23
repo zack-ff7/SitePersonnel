@@ -344,7 +344,7 @@
 
             <div class="two columns header-col">
 
-               <h1><span>Client Testimonials</span></h1>
+               <h1><span>Panel</span></h1>
 
             </div>
 
