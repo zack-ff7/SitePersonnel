@@ -57,7 +57,7 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Armand TOQUET,General developer.</h1>
-            <h3> I'm a general developper. Ready to code all types of project. Your application's quality ? My motivation. </h3>
+            <h3> I'm a general developper. Ready to code all types of project. Your app's quality ? My motivation. </h3>
             <hr />
             <ul class="social">
                <li><a href="https://www.linkedin.com/in/armand-toquet-a8633510b/"><i class="fa fa-linkedin"></i></a></li>
@@ -90,9 +90,9 @@
             <h2>About Me</h2>
 
             <p>
-            I'm an IT programmer since i get graduated in 2016 at HND specialized in IT, in Lyon France.
-            IT is my passion, I am coding many types of application, from the web app to the mobile app, going on software and networking.
-                I'm attached to the fact to work individually at my way that's why i'm working in free-lance.
+            I am an IT programmer since i get graduated in 2016 at HND specialized in IT, in Lyon France.
+            IT is my passion, I am coding many types of application, from web app to mobile app, going on software and networking.
+                I'm attached to the fact to work individually my own way that's why i'm working in free-lance.
            
             </p>
 
