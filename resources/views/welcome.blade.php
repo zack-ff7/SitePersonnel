@@ -81,7 +81,7 @@
 
          <div class="three columns">
 
-            <img class="psrofile-pic"  src="{{asset('images/profilepic.jpg')}}" alt="" />
+            <img class="profile-pic"  src="{{asset('images/profilepic.jpg')}}" alt="" />
 
          </div>
 
