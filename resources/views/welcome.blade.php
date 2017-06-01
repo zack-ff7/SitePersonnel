@@ -57,7 +57,7 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Armand TOQUET,General developer.</h1>
-            <h3> I'm a general developper. Ready to code all types of project. Your app's quality ? My motivation. </h3>
+            <h3> I'm a general developer. Ready to code all types of project. Your app's quality ? My motivation. </h3>
             <hr />
             <ul class="social">
                <li><a href="https://www.linkedin.com/in/armand-toquet-a8633510b/"><i class="fa fa-linkedin"></i></a></li>
@@ -81,7 +81,7 @@
 
          <div class="three columns">
 
-            <img class="profile-pic"  src="{{asset('images/profilepic.jpg')}}" alt="" />
+            <img class="psrofile-pic"  src="{{asset('images/profilepic.jpg')}}" alt="" />
 
          </div>
 
